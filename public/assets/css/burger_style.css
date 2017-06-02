@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2D3142;
+	color: #fff;
+	font-family: 'Delius', cursive;
+	font-size: 18px;
+}
+
+h1, h2 {
+	font-family: 'Bungee Inline', cursive;
+}
+
+h2, h4 {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+
+button {
+	font-size: 12px;
+	background-color: #2D3142;
+	color: #FFF;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #2D3142;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+button:hover {
+	background-color: #1B998B;
+	border-color: #1B998B;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	overflow: auto;
+}
+
+#marquee {
+	text-align: center;
+	overflow: auto;
+	padding: 40px;
+}
+
+#bigBurger {
+	width: 250px;
+	height: 250px;
+	background-color: #7DCE82;
+	padding: 30px;
+	border-radius: 50px;
+}
+
+#uneaten {
+	float: left;
+	overflow: auto;
+	background-color: #FF8360;
+	border-radius: 30px;
+	width: 520px;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+
+#customer {
+	width: 130px;
+}
+
+#amount {
+	width: 70px;
+}
+
+#eaten {
+	float: right;
+	overflow: auto;
+	background-color: #FF8360;
+	border-radius: 30px;
+	width: 400px;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+
+#addABurger {
+	clear: both;
+	padding: 20px;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #7DCE82;
+	color: #2D3142;
+	border-radius: 30px;
+	margin-bottom: 45px;
+}
+
+#burger {
+	width: 200px;
+	height: 30px;
+}
+
+#burgerEaters {
+	margin: 0 auto;
+	padding: 20px;
+	width: 700px;
+	overflow: auto;
+	background-color: #FF8360;
+	border-radius: 30px;
+}
